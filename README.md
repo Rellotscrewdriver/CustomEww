@@ -7,6 +7,9 @@
 Elkowars Wacky Widgets is a standalone widget system made in Rust that allows you to implement
 your own, custom widgets in any window manager.
 
+This fork is a personal repo of mine containing important changes for my rice from pull requests of other people
+I am not responsible for any damages caused by this fork or/and repo
+
 Documentation **and instructions on how to install** can be found [here](https://elkowar.github.io/eww).
 
 Dharmx also wrote a nice, beginner friendly introductory guide for eww [here](https://dharmx.is-a.dev/eww-powermenu/).
