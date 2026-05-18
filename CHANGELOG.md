@@ -43,6 +43,8 @@ All notable changes to eww will be listed here, starting at changes since versio
 - Add `floor` and `ceil` function calls to simplexpr (By: wsbankenstein)
 - Add `formatbytes` function calls to simplexpr (By: topongo)
 - Add `:passthrough` property (wayland) to allow mouse pass through for `:focusable "none"` window (By: LemonKronos)
+- Add support for polling a variable only once (By: aspen-otr)
+
 
 ## [0.6.0] (21.04.2024)
 

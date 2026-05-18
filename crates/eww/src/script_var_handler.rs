@@ -167,7 +167,9 @@ impl PollVarHandler {
             if let Err(err) = result {
                 crate::error_handling_ctx::print_error(err);
             }
-
+            if var.interval.is_zero() {
+                return;
+            }
             crate::loop_select_exiting! {
                 _ = cancellation_token.cancelled() => break,
                 _ = tokio::time::sleep(var.interval) => {
