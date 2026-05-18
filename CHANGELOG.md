@@ -42,9 +42,13 @@ All notable changes to eww will be listed here, starting at changes since versio
 - Add `value-pos` to scale widget (By: ipsvn)
 - Add `floor` and `ceil` function calls to simplexpr (By: wsbankenstein)
 - Add `formatbytes` function calls to simplexpr (By: topongo)
+
+# [0.7.0] (Unofficial)
+- Use a lock file to determine if a daemon is already running, instead of pinging (By: paperluigis)
 - Add `:passthrough` property (wayland) to allow mouse pass through for `:focusable "none"` window (By: LemonKronos)
 - Add support for polling a variable only once (By: aspen-otr)
 - Add `rounded` to circular-progress widget (By: MikeTeok)
+- Add `read` and `written` to the `EWW_DISK` magic variable (By: bkueng)
 
 ## [0.6.0] (21.04.2024)
 
